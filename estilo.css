@@ -1,0 +1,32 @@
+p{
+color: brown;
+}
+
+#id1{
+    color: #000000;
+}
+
+
+h2{
+    color: #00ff00;
+}
+/* já na tag h2 todas ficarão de cor verde*/
+
+
+/* criando uma claase*/
+.classe01{
+    color: darkorange;
+}
+/*diferenciando uma cor de classe de outra*/
+.classe02{
+    color: #f00000;
+}
+/*utilizando uma pseudo-classe*/
+.classe01:hover{color: indigo;}
+.classe02:hover{color: yellow;}
+/*utilizando um pseudo-elemento*/
+#id1::after{content:"utilizando pseudo-elemento no elemento id, por isso que ficou azul"; color: royalblue;}
+#combinators p:hover{font-size: 50px;
+    color: deepskyblue;
+
+}
